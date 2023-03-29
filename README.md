@@ -1,4 +1,9 @@
 # Improve-performance-reactjs
+- When is component re-rendered?
+  + Props changed
+  + State changed
+  + Parent component re-renderd
+  
 ## Redux
 - Example: Only update name of user
   + Component Name display name of user
@@ -22,5 +27,18 @@
 
 ![redux-unresolve](https://user-images.githubusercontent.com/62127758/227873568-9d726157-1e90-4d93-9282-b34dad3a5895.png)
 ![redux-resolve](https://user-images.githubusercontent.com/62127758/227872810-1f799a5d-3840-4579-ab3e-f0d2a791f1e1.png)
+
+## Context API
+![context](https://user-images.githubusercontent.com/62127758/228487050-4503c5b4-d850-4a29-8d47-a488c1ccf425.png)
+- Add package `use-context-selector`
+
+![context-unresolve](https://user-images.githubusercontent.com/62127758/228489023-96d011c8-0804-4539-a82d-36da763fe40c.png)
+
+- Resolve 
+  + Use package `use-context-selector` and access exactly state need to be used
+  + Memo children component (avoid to parent component re-renderd)
+
+![context-resolve](https://user-images.githubusercontent.com/62127758/228487036-b92a77e8-00be-48e2-b90b-9a4002aadead.png)
+
 
 
