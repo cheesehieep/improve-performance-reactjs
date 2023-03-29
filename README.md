@@ -8,7 +8,7 @@
 - Example: Only update name of user
   + Component Name display name of user
   + Component Age display age of user
-  + Dispatch update name of user from Parent Component
+  + Dispatch update name of user from any component
 
 ![reducer](https://user-images.githubusercontent.com/62127758/228455102-e30e6a7c-d972-4bc2-9cb7-d29e3425956f.png)
 
