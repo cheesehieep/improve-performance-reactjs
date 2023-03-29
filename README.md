@@ -1,7 +1,24 @@
 # Improve-performance-reactjs
 ## Redux
+- Example: Only update name of user
+  + Component Name display name of user
+  + Component Age display age of user
+  + Dispatch update name of user from Parent Component
+
+![reducer](https://user-images.githubusercontent.com/62127758/228455102-e30e6a7c-d972-4bc2-9cb7-d29e3425956f.png)
+
+### Class component
+![redux-class](https://user-images.githubusercontent.com/62127758/228453807-68a1c9e1-ac8e-447f-a8c9-d0e869b2b032.png)
+- Age component re-rendered
+
+![redux-class-unresolve](https://user-images.githubusercontent.com/62127758/228454140-19c06f7a-b2a0-4643-9c99-9f353e40fb4e.png)
+- Resolve (Selector exactly state need to be used)
+
+![redux-class-resolve](https://user-images.githubusercontent.com/62127758/228454463-feef5119-af32-4402-bcd5-fb503017145e.png)
+
+### Function component
 ![redux-re-render](https://user-images.githubusercontent.com/62127758/227871766-6320d5e8-e2df-4082-8ca0-2ca41d197100.png)
-- Resolve (Selector chính xác state cần sử dụng)
+- Resolve (Selector exactly state need to be used)
 
 ![redux-unresolve](https://user-images.githubusercontent.com/62127758/227873568-9d726157-1e90-4d93-9282-b34dad3a5895.png)
 ![redux-resolve](https://user-images.githubusercontent.com/62127758/227872810-1f799a5d-3840-4579-ab3e-f0d2a791f1e1.png)
