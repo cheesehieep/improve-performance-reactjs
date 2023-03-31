@@ -2,7 +2,7 @@
 - When is component re-rendered?
   + Props changed
   + State changed
-  + Parent component re-renderd
+  + Parent component re-rendered
   
 ## Redux
 - Example: Only update name of user
@@ -39,6 +39,16 @@
   + Memo children component (avoid to parent component re-renderd)
 
 ![context-resolve](https://user-images.githubusercontent.com/62127758/228487036-b92a77e8-00be-48e2-b90b-9a4002aadead.png)
+
+## React query
+![query](https://user-images.githubusercontent.com/62127758/229055588-90b645bf-0cb9-452e-b5e6-92e7850546a3.png)
+
+- Resolve
+  + Use option `select` of useQuery to access exactly data need to be used
+  + This option can be used to transform or select a part of the data returned by the query function. It affects the returned data value, but does not affect what gets stored in the query cache
+  
+![query-resolve](https://user-images.githubusercontent.com/62127758/229055692-f895e75c-d2f1-4be7-af96-eb8825377d49.png)
+
 
 
 
